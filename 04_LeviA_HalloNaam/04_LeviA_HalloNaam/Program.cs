@@ -26,7 +26,7 @@ namespace _04_LeviA_HalloNaam
             //Stap 2:Maak de juiste tekst
             //_bewerking = "Hallo+" + _naam
             //_bewerking = string.Format("hallo{0}", _naamGebruiker);
-            _bewerking = $"Hallo"{ _naamGebruiker}";
+            _bewerking = $"Hallo { _naamGebruiker}";
 
             //scherm wissen
             Console.Clear();
