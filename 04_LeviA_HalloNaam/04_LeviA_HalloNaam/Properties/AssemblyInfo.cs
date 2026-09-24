@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("03_Les")]
+[assembly: AssemblyTitle("04_LeviA_HalloNaam")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("03_Les")]
+[assembly: AssemblyProduct("04_LeviA_HalloNaam")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9c32b963-aace-4126-8207-fb2bb413e808")]
+[assembly: Guid("a65b73ad-d8f1-4125-84a5-90944ba2724e")]
 
 // Version information for an assembly consists of the following four values:
 //

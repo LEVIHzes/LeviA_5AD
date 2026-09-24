@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9C32B963-AACE-4126-8207-FB2BB413E808}</ProjectGuid>
+    <ProjectGuid>{A65B73AD-D8F1-4125-84A5-90944BA2724E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_03_Les</RootNamespace>
-    <AssemblyName>03_Les</AssemblyName>
+    <RootNamespace>_04_LeviA_HalloNaam</RootNamespace>
+    <AssemblyName>04_LeviA_HalloNaam</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
