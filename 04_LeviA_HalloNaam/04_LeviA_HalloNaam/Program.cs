@@ -18,7 +18,7 @@ namespace _04_LeviA_HalloNaam
             String _naamGebruiker =null;
             String _bewerking = null;
             //programma
-
+                
             //Stap 1:Vraag naam + opslaan
             Console.WriteLine("Geef uw naam:");
             _naamGebruiker = Console.ReadLine();
