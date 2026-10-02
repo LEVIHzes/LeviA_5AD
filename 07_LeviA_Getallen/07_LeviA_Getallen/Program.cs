@@ -46,6 +46,7 @@ namespace _07_LeviA_Getallen
                 Console.WriteLine($"Je derde getal is {_getal2.ToString()}.\n");
                 Console.WriteLine($"Je tweede getal is {_getal1.ToString()}\n");
                 Console.WriteLine($"Je eerste getal is {_getal.ToString()}\n");
+                Console.WriteLine("Druk op een toets om af te sluiten.");
             }
             catch
             {
