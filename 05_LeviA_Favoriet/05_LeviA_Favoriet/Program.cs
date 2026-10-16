@@ -29,6 +29,7 @@ namespace _05_LeviA_Favoriet
             //Stap 1:Vraag de favoriete kleur +opslaan
             Console.WriteLine("Kies een kleur:");
             _kleur = Console.ReadLine();
+
             //Stap 2:Maak de juiste tekst
             _bewerking = $"Je koos { _kleur}";
 

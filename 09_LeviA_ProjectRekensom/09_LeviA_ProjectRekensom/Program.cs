@@ -19,15 +19,16 @@ namespace _09_LeviA_ProjectRekensom
             int _bewerking,_bewerking1,_bewerking2,_bewerking3 = 0;
 
             //Programma
-            try { } 
+            try
+            {
+                //Stap 1:Vraag eerste getal + opslaan
+                Console.WriteLine("Geef je eerste getal");
+                _Getal = int.Parse(Console.ReadLine());
+
+                //scherm wissen
+                Console.Clear();
                 try
-                {//Stap 1:Vraag eerste getal + opslaan
-                    Console.WriteLine("Geef je eerste getal");
-                    _Getal = int.Parse(Console.ReadLine());
-
-                    //scherm wissen
-                    Console.Clear();
-
+                {
                     //Stap 2:Vraag 2de getal +opslaan
                     Console.WriteLine("Geef je tweede getal");
                     _Getal1 = int.Parse(Console.ReadLine());
@@ -62,8 +63,20 @@ namespace _09_LeviA_ProjectRekensom
                 {
                     //scherm wissen
                     Console.Clear();
-                    Console.WriteLine("Er ging iets fout.");
+
+                    //fout weergeven
+                    Console.WriteLine("Je tweede getal is niet geldig");
                 }
+            }
+            catch
+            {
+                //scherm wissen
+                Console.Clear();
+
+                //Foutmelding
+                Console.WriteLine("Je eerste getal is niet geldig");
+            }
+               
             
 
         }
